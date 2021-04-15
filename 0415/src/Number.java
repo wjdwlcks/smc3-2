@@ -5,15 +5,15 @@ public class Number {
 	public static void main(String[] args) {
 		
 
-	System.out.print("10°³ÀÇ ·»´ı ¼ıÀÚÁß  ÇÏ³ª¸¦ ¸ÂÃçº¸¼¼¿ä(1~50)±îÁö : ");
+	System.out.print("10ê°œì˜ ë Œë¤ ìˆ«ìì¤‘  í•˜ë‚˜ë¥¼ ë§ì¶°ë³´ì„¸ìš”(1~50)ê¹Œì§€ : ");
 	Scanner sc = new Scanner(System.in);	
-	int b= sc.nextInt();
-	int count =0;
-	for(int i=0;i<10;i++) {
+	int b= sc.nextInt(); //ì…ë ¥
+	int count =0; //ë‹¹ì²¨ì—¬ë¶€ í™•ì¸ìœ„í•´ ì„ ì–¸
+	for(int i=0;i<10;i++) { // ìˆ«ì ëœë¤ ìƒì„±
 	int a= (int)(Math.random()*50+1);
 	System.out.print(a+" ");
 	
-	if(a==b) {
+	if(a==b) { //ë§Œì•½ì— ê°™ì€ìˆ«ìê°€ ë‚˜ì˜¤ë©´ countì— 1ì¶”ê°€
 		count++;
 		
 	}
@@ -21,11 +21,11 @@ public class Number {
 }
 	
 	System.out.println(" ");
-	if(count==1) {
-		System.out.println("´çÃ·");
-	}
-	else
-		System.out.println("¤¹¤¹");
+	if(count==1) {	// 1ì´ë©´ ë‹¹ì²¨
+		System.out.println("ë‹¹ì²¨");
+	}	
+	else			//ì•„ë‹ˆë©´ ì•„ë‹˜
+		System.out.println("ã…‰ã…‰");
 	
 	
 	
